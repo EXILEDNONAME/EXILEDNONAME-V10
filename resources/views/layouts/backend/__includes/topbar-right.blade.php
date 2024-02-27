@@ -1,5 +1,5 @@
 <div class="topbar">
-  @include('layouts.backend.__includes.item-topbar.search')
+  <!-- @!include('layouts.backend.__includes.item-topbar.search') -->
   @include('layouts.backend.__includes.item-topbar.notification')
   @include('layouts.backend.__includes.item-topbar.chat')
   @include('layouts.backend.__includes.item-topbar.language')

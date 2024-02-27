@@ -323,10 +323,6 @@ if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
     module.exports = KTApp;
 }
 
-// Initialize KTApp class on document ready
-$(document).ready(function() {
-    KTApp.init(KTAppSettings);
-});
 
 "use strict";
 
@@ -763,7 +759,7 @@ if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
 "use strict";
 // DOCS: https://javascript.info/cookie
 
-// Component Definition 
+// Component Definition
 var KTCookie = function() {
   return {
     // returns the cookie with the given name,
@@ -818,7 +814,7 @@ if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
 
 "use strict";
 
-// Component Definition 
+// Component Definition
 var KTDialog = function(options) {
     // Main object
     var the = this;
@@ -1213,7 +1209,7 @@ if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
 
 "use strict";
 
-// Component Definition 
+// Component Definition
 var KTImageInput = function(elementId, options) {
     // Main object
     var the = this;
@@ -4817,14 +4813,7 @@ if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
     module.exports = KTUtil;
 }
 
-// Initialize KTUtil class on document ready
-KTUtil.ready(function() {
-	if (typeof KTAppSettings !== 'undefined') {
-		KTUtil.init(KTAppSettings);
-	} else {
-		KTUtil.init();
-	}
-});
+
 
 // CSS3 Transitions only after page load(.page-loading class added to body tag and remove with JS on page load)
 window.onload = function() {
@@ -9621,7 +9610,7 @@ var KTLayoutHeaderMenu = function() {
 				state: 'mobile-toggle-active'
 			}
 		});
-		
+
 		_menuObject = new KTMenu(_menuElement, {
 			submenu: {
 				desktop: 'dropdown',

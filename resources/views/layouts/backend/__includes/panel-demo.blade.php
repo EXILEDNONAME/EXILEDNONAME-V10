@@ -10,18 +10,6 @@
   </div>
 
   <div class="offcanvas-content">
-    <div class="offcanvas-wrapper mb-5 scroll-pull">
-      <h5 class="font-weight-bold mb-4 text-center">Demo 30</h5>
-      <div class="overlay rounded-lg mb-8 offcanvas-demo ">
-        <div class="overlay-wrapper rounded-lg">
-          <img src="/assets/backend//../../../../../../doc//assets/backend/img/demos/demo30.png" alt="" class="w-100"/>
-        </div>
-        <div class="overlay-layer">
-          <a href="#" class="btn font-weight-bold btn-primary btn-shadow disabled">Coming soon</a>
-        </div>
-      </div>
-    </div>
-
     <div class="offcanvas-footer">
       <a href="https://1.envato.market/EA4JP" target="_blank" class="btn btn-block btn-danger btn-shadow font-weight-bolder text-uppercase">
         Buy Metronic Now!
