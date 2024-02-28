@@ -44,10 +44,60 @@
         </div>
 
         <div class="content  d-flex flex-column flex-column-fluid" id="kt_content">
+
           @include('layouts.backend.__includes.breadcrumb')
           <div class="d-flex flex-column-fluid">
-            <div class="container">
-              <p>Page content goes here...</p>
+            <div class=" container-fluid ">
+
+              <!-- CONTENT -->
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="card card-custom card-stretch gutter-b">
+                    <div class="card-header">
+                      <div class="card-title">
+                        <h3 class="card-label">
+                          Basic Card
+                          <small>sub title</small>
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                      when an unknown printer took a galley of type and scrambled. Lorem Ipsum
+                      is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                      when an unknown printer took a galley of type and scrambled.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="card card-custom card-stretch gutter-b">
+                    <div class="card-header">
+                      <div class="card-title">
+                        <h3 class="card-label">
+                          Basic Card
+                          <small>sub title</small>
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                      when an unknown printer took a galley of type and scrambled. Lorem Ipsum
+                      is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                      when an unknown printer took a galley of type and scrambled.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
             </div>
           </div>
         </div>
