@@ -19,6 +19,7 @@
   <link href="/assets/backend/css/style.bundle.css?v=7.0.6" rel="stylesheet" type="text/css"/>
   <!--end::Global Theme Styles-->
 
+  @stack('head')
   <!--begin::Layout Themes(used by all pages)-->
 
   <link href="/assets/backend/css/themes/layout/header/base/light.css?v=7.0.6" rel="stylesheet" type="text/css"/>
