@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+include(base_path(). '/routes/backend/default.php');
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes

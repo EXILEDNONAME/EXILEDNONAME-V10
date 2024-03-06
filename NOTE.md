@@ -1,1 +1,11 @@
-- Datatable (Index)
+- OK * Language Switcher Controller
+
+- Datatable :
+  - Index
+  - Create
+  - Edit
+  - Show
+- Profile
+- File Manager
+- Logout
+- Application Controller
