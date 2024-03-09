@@ -5,7 +5,7 @@
   - Index     - *
   - Create    - *
   - Edit      - *
-  - Show
+  - Show      - *
 - Profile
 - File Manager
 - Logout
