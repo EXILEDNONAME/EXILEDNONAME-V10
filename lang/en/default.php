@@ -2,6 +2,13 @@
 
 return [
   'label' => [
+    'back'                          => 'Back',
+    'create'                        => 'Create',
+    'delete'  => [
+      '/'                           => 'Delete',
+      'permanent'                   => 'Delete Permanent',
+    ],
+    'edit'                          => 'Edit',
     'export' => [
       'copy'                        => 'Copy',
       'excel'                       => 'Excel',
@@ -20,5 +27,8 @@ return [
     'profile' => [
       'account-information'         => 'Account Information',
     ],
+    'save'                          => 'Save',
+    'update'                        => 'Update',
+    'view'                          => 'View',
   ],
 ];

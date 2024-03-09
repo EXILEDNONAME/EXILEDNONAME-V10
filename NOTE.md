@@ -2,9 +2,9 @@
 - OK * Logout Topbar
 
 - Datatable :
-  - Index
-  - Create
-  - Edit
+  - Index     - *
+  - Create    - *
+  - Edit      - *
   - Show
 - Profile
 - File Manager

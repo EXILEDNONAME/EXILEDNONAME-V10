@@ -70,7 +70,11 @@
 <script>
 "use strict";
 
+@if (!empty($sort))
 var sort = {!! json_encode($sort) !!};
+@else
+var sort = 1;
+@endif
 var table = $('#exilednoname_table').DataTable({
   serverSide: true,
   searching: true,

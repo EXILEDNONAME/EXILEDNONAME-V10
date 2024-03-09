@@ -1,2 +1,2 @@
-@extends('pages.backend.__templates.datatable.edit', ['datetime' => 'true', 'status' => 'true'])
+@extends('layouts.backend.__templates.datatable.edit')
 @section('title', 'Table Generals')

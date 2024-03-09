@@ -28,4 +28,14 @@ Route::get('/template', function () {
 });
 
 
+// TABLES - GENERALS
+Route::group([
+  'as' => 'dashboard.demo.datatables.',
+  'prefix' => 'dashboard/demos/datatables',
+  'namespace' => 'App\Http\Controllers\Backend\Demo\Datatable',
+  'middleware' => 'auth',
+], function () {
+  Route::resource('/', 'GeneralController')->parameters(['' => 'id']);
+});
+
 Route::get('/dashboard/datatables', [App\Http\Controllers\Backend\Demo\Datatable\GeneralController::class, 'index'])->name('dashboard.datatables');
